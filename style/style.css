@@ -81,10 +81,33 @@ nav a:hover{
 nav li{
     display: inline;
     list-style-type: none;
-    margin-right: 20px;
+    margin: 200px;
 }
 
 nav{
     background-color: #00a2c6;
     padding: 5px;
+}
+
+@media screen and (max-width: 1460px){
+    nav li{
+        margin: 190px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    nav li{
+        margin: 180px;
+    }
+}
+
+@media screen and (max-width: 1345px){
+    #content, aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    nav li{
+        margin: 20px;
+    }
 }
